@@ -10,3 +10,12 @@
 // "605"  --> 605
 // "1405" --> 1405
 // "-7" --> -7
+
+// SOLUTION:
+const stringToNumber = function (str) {
+  return Number(str);
+};
+console.log("solution: ", stringToNumber("111"));
+console.log("solution: ", stringToNumber("605"));
+console.log("solution: ", stringToNumber("1405"));
+console.log("solution: ", stringToNumber("-7"));
