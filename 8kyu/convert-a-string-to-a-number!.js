@@ -1,4 +1,4 @@
-// Note: This kata is inspired by Convert a Number to a String!. Try that one too.
+// ❓ Note: This kata is inspired by Convert a Number to a String!. Try that one too.
 
 // Description
 // We need a function that can transform a string into a number. What ways of achieving this do you know?
@@ -11,7 +11,7 @@
 // "1405" --> 1405
 // "-7" --> -7
 
-// SOLUTION:
+// ✔️ SOLUTION:
 const stringToNumber = function (str) {
   return Number(str);
 };
