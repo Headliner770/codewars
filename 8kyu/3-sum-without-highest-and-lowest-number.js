@@ -12,7 +12,6 @@
 // If an empty value ( null, None, Nothing, nil etc. ) is given instead of an array, or the given array is an empty list or a list with only 1 element, return 0.
 // Если вместо массива указано пустое значение (null, None, Nothing, nil и т.д.) или заданный массив является пустым списком или списком, содержащим только 1 элемент, вернуть 0.
 
-// ✔️ SOLUTION:
 // const array = [6, 2, 1, 8, 10];
 // const array2 = [1, 1, 11, 2, 3];
 
@@ -27,6 +26,8 @@
 //   return filterArray.reduce((sum, n) => sum + n, 0);
 // }
 
+// ✔️ SOLUTION:
+
 const array = [6, 2, 1, 8, 10];
 const array2 = [1, 1, 11, 2, 3];
 
@@ -36,6 +37,6 @@ function sumArray(array) {
   const sliceAraay = sortArray.slice(1, -1);
   return sliceAraay.reduce((sum, x) => sum + x, 0);
 }
-
+ 
 console.log(sumArray(array));
 console.log(sumArray(array2));
